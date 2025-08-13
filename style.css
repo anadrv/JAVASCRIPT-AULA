@@ -56,7 +56,7 @@ main {
 
 }
 
-.evento {
+.historia-container {
   font-family: var(--font-destaque);
   text-align: center;
   margin-bottom: 44px;
@@ -76,27 +76,27 @@ main {
 
 /*APLICACOES*/
 
-.depoimentos {
+.aplicacoes {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.depoimentos__titulo {
+.aplicacoes__titulo {
   font-size: 2rem;
   font-family: var(--font-destaque);
   text-align: center;
   margin: 20px 0 50px 0;
 }
 
-.depoimentos__cards {
+.aplicacoes__cards {
   display: flex;
   max-width: 65vw;
   gap: 80px;
 }
 
-.depoimentos__card {
+.aplicacoes__card {
   border: 1px solid black;
   box-shadow: 2px 2px 0 black;
   padding: 20px;
@@ -109,25 +109,25 @@ main {
   transition: transform 0.3s ease;
 }
 
-.depoimentos__card:hover {
+.aplicacoes__card:hover {
   transform: translateY(-2px);
 }
 
-.depoimentos__nome {
+.aplicacoes__nome {
   margin: 20px 0;
   text-align: left;
 }
 
-.depoimentos__aspas--fecha {
+.aplicacoes__aspas--fecha {
   align-self: flex-end;
 }
 
-.depoimentos__aspas {
+.aplicacoes__aspas {
   width: 25px;
   height: 20px;
 }
 
-.depoimentos__paragrafo {
+.aplicacoes__paragrafo {
   font-size: 0.9rem;
 }
 
