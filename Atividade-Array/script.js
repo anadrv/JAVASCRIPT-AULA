@@ -4,7 +4,6 @@ mesa.push("Sabrina", "Carol");
 mesa.unshift("Gabriel", "Lavinia", "Julia");
 
 let position = mesa.indexOf("Ana");
-console.log(position)
 
 mesa.splice(position, 1);
 console.log(mesa);
