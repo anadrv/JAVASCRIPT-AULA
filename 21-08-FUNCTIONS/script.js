@@ -1,9 +1,6 @@
-function cortaCabelo() {
-    console.log("corta o cabelo jungsu")
+function cortaCabelo(name) {
+    console.log("corta o cabelo " + name)
 };
 
-cortaCabelo();
-cortaCabelo();
-cortaCabelo();
-cortaCabelo();
-cortaCabelo();
+cortaCabelo("Jungsu");
+cortaCabelo("Bang Chan");
