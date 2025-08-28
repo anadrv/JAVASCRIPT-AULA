@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+
+    margin: 20px auto;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: cadetblue;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    gap: 10px;
+    margin: 0 auto;
+}
+
+input, select, textarea {
+    padding: 5px 0;
+    width: 100%;
+    border: 1px solid rgb(49, 49, 49);
+    border-radius: 5px;
+}
+
+
+button {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: cadetblue;
+    color: aliceblue;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
